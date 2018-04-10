@@ -25,7 +25,7 @@ h1{
     font-family: 'Cinzel', serif;
 }
 h2{
-    color: white;
+    /*color: white;*/
     font-family: 'Dancing Script', cursive;
 }
 /*.container2 {
@@ -46,10 +46,10 @@ h2{
 /*button:hover{
     background-color: rgb(55, 177, 199);*/
 }
-footer {
+.footer {
     margin-bottom: 30px;
     /*color: white;*/
     font-style: italic;
-    font-size: 8px;
+    font-size: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
