@@ -48,8 +48,9 @@ h2{
 }
 .intro {
     margin-bottom: 30px;
+    margin-top: 5px;
     /*color: white;*/
     font-style: italic;
-    font-size: 10px;
+    font-size: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
