@@ -13,10 +13,6 @@ var randomVersetext = versetext[randomNumber];
 var randomVerse = verse[randomNumber];
 var randomPhoto = photo[randomPhoto];
 
-function newPhoto()
-var randomPhoto = Math.floor(Math.random() * (photo.length));
-document.getElementById('photosDisplay').innerHTML = photo[randomPhoto];
-
 const path = require('path');
 const express = require('express');  
 
