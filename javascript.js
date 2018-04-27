@@ -11,7 +11,7 @@ document.getElementById('quotesDisplay').innerHTML = versetext[randomNumber] + '
 }
 function newBackgroundphoto() {
 var randomNumber = Math.floor(Math.random() * (versetext.length));
-document.getElementById('quotesDisplay').innerHTML = backgroundphoto[randomNumber];
+document.getElementById('background').innerHTML = backgroundphoto[randomNumber];
 }
 
 var randomVersetext = versetext[randomNumber];
