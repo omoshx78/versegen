@@ -12,10 +12,10 @@ var randomNumber = Math.floor(Math.random() * (versetext.length));
 document.getElementById('quotesDisplay').innerHTML = versetext[randomNumber] + ' ' +verse[randomNumber]; 
 tweet = document.getElementById('quotesDisplay').innerText;
 /*document.getElementById('quotesDisplay').innerHTML = author[randomNumber];*/
-}
+};
 
 $.getJSON('tweet', function(){newVersetext
-  });
+});
 
 $("#newVersetext").on('click', function(){
     getElementById();
@@ -31,7 +31,7 @@ document.getElementById('background').innerHTML = backgroundphoto[randomNumber];
 
 var randomVersetext = versetext[randomNumber];
 var randomVerse = verse[randomNumber];
-var randomBackgroundphoto = backgroundphoto[randomNumber];
+/*var randomBackgroundphoto = backgroundphoto[randomNumber];*/
 
 const path = require('path');
 const express = require('express');  
