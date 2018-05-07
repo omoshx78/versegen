@@ -29,8 +29,8 @@ var randomNumber = Math.floor(Math.random() * (versetext.length));
 document.getElementById('background').innerHTML = backgroundphoto[randomNumber];
 }*/
 
-var randomVersetext = versetext[randomNumber];
-var randomVerse = verse[randomNumber];
+/*var randomVersetext = versetext[randomNumber];
+var randomVerse = verse[randomNumber];*/
 /*var randomBackgroundphoto = backgroundphoto[randomNumber];*/
 
 const path = require('path');
