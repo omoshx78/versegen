@@ -3,6 +3,8 @@ var versetext = ["Have I not commanded you? Be strong and courageous. Do not be 
 var verse = ['- Joshua 1:9', '- Philippians 4:19', '- Deuteronomy 31:6', '- Psalm 23:4', '- Isaiah 40:31', '- Mark 10:27', '- Jeremiah 29:11', '- Proverbs 18:10', '- Philippians 4:13', '- Matthew 11:28', '- Job 5:12', '- Exodus 14:13', '- Deutronomy 8:18', '- Proverbs 16:3', '- Psalm 20:4', 'Psalm 27:1', '- Judges 5:31', '- 1 Kings 5:4', '- Psalm 23:6', '- Psalm 51:10-11', '- Psalm 27:4', '- Psalm 34:8', '- Proverbs 17:17', '- Isaiah 40:28', '- Isaiah 40:29', '- John 15:13', '- Romans 8:31', '- Romans 15:13', '- Romans 8:38-39', '- 1 Corinthians 13:12', '- Lamentations 3:22-23', '- 2 Corinthians 4:16-18', '- 1 Corinthians 16:13', '- 1 Peter 2:9', '- James 1:2-4', '- Psalm 23:1', '- Deuteronomy 31:6', '- Philippians 4:8', '- Philippians 4:4', '- Isaiah 54:10', ' - John 14:1', '- Psalm 118-28', '- Psalm 118-23', '- Psalm 118-24', '- Exodus 15:26', '- Deuteronomy 8:3', '- Psalm 55:22', '- Isaiah 41:13', '- Matthew 6:25', '- Philippians 4:6-7', '- 1 Peter 5:7', '- Isaiah 54:17', '- 2 Chronicles 7:14', '- Philippians 2:9-10', '- Psalm 46:10', '- Esther 4:14', '- Isaiah 45:2-3', '- Isaiah 45:14'];
 /*var backgroundphoto = ["https://images.unsplash.com/photo-1519987487127-e75416a74471?ixlib=rb-0.3.5&s=e68964d978aba51e345e0e16d38714d5&auto=format&fit=crop&w=1158&q=80", "https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-0.3.5&s=8c0c836ccb89f976e419e623103c4f3c&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1429152937938-07b5f2828cdd?ixlib=rb-0.3.5&s=27caf9cdfe74f8f98d55515f97de5008&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1521571783891-2ac3de6c8fc9?ixlib=rb-0.3.5&s=c7f071b16d6944a618fe31d482326f2a&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1512324565805-828423f9de99?ixlib=rb-0.3.5&s=61a1c91312be392a5c1f7f5d830060ba&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9fc7ec2cbf1e7f00746ea9f4810613a&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1457537227909-08f41319e53c?ixlib=rb-0.3.5&s=ebc3efbece30d14b6dc57d8fb60f829c&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1468605325785-3de4aabda058?ixlib=rb-0.3.5&s=7eb93e47f04675a02e6430f22f71fd2e&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1519406155028-39dbcdf8400c?ixlib=rb-0.3.5&s=315d0af64813ea23afe6182eba641d91&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1462400362591-9ca55235346a?ixlib=rb-0.3.5&s=9d57e863ac3e9ee47cc92ff2dcc65830&auto=format&fit=crop&w=500&q=60"];*/
 
+var versetext;
+var verse;
 var randomNumber;
 var tweet = '';
 tweet = document.getElementById('quotesDisplay').innerText;
@@ -30,8 +32,8 @@ var randomNumber = Math.floor(Math.random() * (versetext.length));
 document.getElementById('background').innerHTML = backgroundphoto[randomNumber];
 }*/
 
-/*var randomVersetext = versetext[randomNumber];
-var randomVerse = verse[randomNumber];*/
+var randomVersetext = versetext[randomNumber];
+var randomVerse = verse[randomNumber];
 /*var randomBackgroundphoto = backgroundphoto[randomNumber];*/
 
 const path = require('path');
